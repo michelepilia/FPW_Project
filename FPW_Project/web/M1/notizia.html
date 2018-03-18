@@ -6,11 +6,41 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Lettura Articolo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content ="Michele Pilia">
+        <meta name="keywords" content="blog, unica, fast press writer, notizie, news, fake, cozze, conto, 911, America">
+        <meta name="description" content="Notizia Blog news">
+        <style type="text/css"></style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+    
+    
     <body>
-        <div>TODO write content</div>
+        
+        <header>Fast Press Writer</header>
+        
+        <nav>
+            <ul>
+                <li><a href="notizia.html">Notizie</a></li>
+                <li><a href="articoli.html">Profilo</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>   
+        </nav>
+        
+        <div> 
+            <form action="articoli.html" method="get">
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" value="Username">
+                <br>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" value="Password">
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        
+        
     </body>
 </html>
