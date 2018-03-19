@@ -6,11 +6,87 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Scrivi Articolo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content ="Michele Pilia">
+        <meta name="keywords" content="blog, unica, fast press writer, notizie, news, fake, profilo">
+        <meta name="description" content="I miei articoli Blog news">
+        <style type="text/css"></style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+    
+    
     <body>
-        <div>TODO write content</div>
+        
+        <header>Fast Press Writer</header>
+        
+        <nav>
+            <ul>
+                <li><a href="notizia.html">Notizie</a></li>
+                <li><a href="articoli.html">Profilo</a></li>
+                <li><a href="#">I miei Articoli</a></li>
+                <li>Ciao, Michele</li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>   
+        </nav>
+        
+        <div>
+            
+            <form action="articoli.html" method="get">
+                <label for="titolo">Titolo </label>
+                <input type="text" name="titolo" id="titolo">
+                <br>
+                <label for="date">Data </label>
+                <input type="date" name="date" id="date">
+                <br>
+                <label for="image">Immagine </label>
+                <input type="url" name="image" id="image">
+                <br>
+                <label for="didascalia">Didascalia </label>
+                <input type="text" name="didascalia" id="didascalia">
+                <br>
+                <label for="testo">Testo Articolo</label>
+                <textarea rows="4" cols="20" name="testo" id="testo"></textarea>
+                <br>
+                <h4>Categoria</h4>
+                <p>
+                    <input type="checkbox" name="category" value="politica">Politica<br>
+                    <input type="checkbox" name="category" value="cronaca">Cronaca<br>
+                    <input type="checkbox" name="category" value="esteri">Esteri<br>
+                    <input type="checkbox" name="category" value="economia">Economia<br>
+                    <input type="checkbox" name="category" value="sport">Sport<br>
+                    <input type="checkbox" name="category" value="cultura">Cultura<br>
+                </p>
+                <button type="submit">Salva</button>
+            </form>
+                
+            
+        </div>
+
+        
+        <aside>
+            <h3>Cerca</h3>
+            <input type="text" value="Cerca...">
+            
+            <h2>Categorie</h2>
+            <ul>
+                <li><a href="#"></a>Politica</li>
+                <li><a href="#"></a>Cronaca</li>
+                <li><a href="#"></a>Esteri</li>
+                <li><a href="#"></a>Economia</li>
+                <li><a href="#"></a>Sport</li>
+                <li><a href="#"></a>Cultura</li>
+            </ul>
+            
+            <h2>Autori</h2>
+            <ul>
+                <li><a href="#"></a>Giandomenico Fracchia</li>
+                <li><a href="#"></a>Aldo Baglio</li>
+                <li><a href="#"></a>Pasquale Baudafi</li>
+            </ul>
+        </aside>
+        
+        
     </body>
 </html>
