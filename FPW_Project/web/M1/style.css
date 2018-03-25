@@ -1,3 +1,4 @@
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -7,4 +8,56 @@ and open the template in the editor.
     Created on : 17-mar-2018, 11.50.52
     Author     : michelepilia
 */
+.top {
+    display: inline;
+    background-color: #008ae6;
+    z-index: 100;
+    top:0px;
+}
+
+
+header {
+    display: inline;
+    position: fixed;
+    width: 150px;
+    font-size: 25px;
+    left:0px;
+    
+}
+
+
+nav {
+    position: fixed;
+    left: 1000px;
+}
+
+body {
+    background-color: #ccebff;
+}
+
+#div_title {
+    display: inline;
+    position: relative;
+    top: 120px;
+    left: 40%; 
+}
+
+#logo {
+    
+}
+
+#main_title {
+    display: inline;
+    top: 500px;
+    
+}
+
+.main_content {
+    display:inline;
+    position: relative;
+    top: 150px;
+    background-color: white;
+    width: 300px;
+    left: 500px;
+}
 
