@@ -75,8 +75,35 @@ nav a:active {
 
 
 .sidebar {
+    display: block;
     position: fixed;
-    top: 200px;
+    top: 70px;
+    height: 100%;
+    width: 178px;
+    border-right: 1px solid black;
+}
+
+.autori li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+#fracchia {
+    background-image: url('images/fracchia.jpeg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+#aldo {
+    background-image: url('images/baglio.jpg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+#baudaffi {
+    background-image: url('images/baudaffi.jpg');
+    background-repeat: no-repeat;
+    background-size: 20px;
 }
 
 
@@ -84,10 +111,10 @@ nav a:active {
 
 
 #div_title {
-    display: inline;
     position: relative;
     top: 120px;
-    left: 40%; 
+    left: 300px; 
+    width: 500px;
 }
 
 #logo {
@@ -95,15 +122,16 @@ nav a:active {
 }
 
 #main_title {
-    display: inline;
-    top: 500px;
+    display: block;
+    position:relative;
+    text-align: center;
     
 }
 
 .main_content {
     display:inline;
-    position: relative;
-    top: 150px;
+    position: absolute;
+    top: 550px;
     background-color: white;
     width: 300px;
     left: 500px;
