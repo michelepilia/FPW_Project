@@ -19,20 +19,25 @@ and open the template in the editor.
     
     <body>
         
-        <header class="top">Fast Press Writer</header>
+        <header class="top">
+            <a href="#">
+                <img title="Logo header" src="images/sigla.png" 
+                     alt="titolo ridotto" height="75" width="83">
+            </a>
+        </header>
         
         <nav class="top">
             <ul>
-                <li><a href="notizia.html">Notizie</a></li>
-                <li><a href="articoli.html">Profilo</a></li>
-                <li>Ciao, Michele</li>
-                <li><a href="login.html">Logout</a></li>
+                <li><a href="notizia.html">NOTIZIE</a></li>
+                <li><a href="articoli.html">PROFILO</a></li>
+                <li id="greetings">Ciao, Michele</li>
+                <li><a href="login.html">LOGOUT</a></li>
             </ul>   
         </nav>
         
-        <div>
-            <h1>Chiama la polizia (due volte) perché il piatto di cozze è troppo piccolo: denunciato</h1>
-            <img title="Cozze" alt="piatto di cozze" 
+        <div class="main_content">
+            <h1 class="div_title">Chiama la polizia (due volte) perché il piatto di cozze è troppo piccolo: denunciato</h1>
+            <img id="main_img" title="Cozze" alt="piatto di cozze" 
                  src="images/cozze.jpg" width="1181" height="667">
             
             <h5>
@@ -80,7 +85,7 @@ and open the template in the editor.
             <h3 id="search">Cerca</h3>
             <input type="text" value="Cerca..." id="input_search">
             
-            <h2>Categorie</h2>
+            <h2 id="categorie_title">CATEGORIE</h2>
             <ul class="categorie">
                 <li><a href="#">Politica</a></li>
                 <li><a href="#">Cronaca</a></li>
@@ -90,7 +95,7 @@ and open the template in the editor.
                 <li><a href="#">Cultura</a></li>
             </ul>
             
-            <h2>Autori</h2>
+            <h2 id="autori_title">AUTORI</h2>
             <ul class="autori">
                 <li id="fracchia"><a href="#">Giandomenico Fracchia</a></li>
                 <li id="aldo"><a href="#">Aldo Baglio</a></li>
