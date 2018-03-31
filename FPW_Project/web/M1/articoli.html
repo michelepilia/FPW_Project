@@ -30,55 +30,95 @@ and open the template in the editor.
         <nav class="top">
             <ul>
                 <li><a href="notizia.html">NOTIZIE</a></li>
-                <li><a href="articoli.html">PROFILO</a></li>
-                <li class="due_righe"><a href="#">I MIEI ARTICOLI</a></li>
+                <li><a href="#">PROFILO</a></li>
+                <li id="main_nav" class="due_righe"><a href="#">I MIEI ARTICOLI</a></li>
                 <li id="greetings">Ciao, Michele</li>
                 <li><a href="login.html">LOGOUT</a></li>
             </ul>   
         </nav>
         
-        <div class="main_content">
-            <h1 id="main_title">I miei Articoli</h1>
+        <div class="main_content" id="main_articles">
+            <h1 class="main_title" id="profile_title">I miei Articoli</h1>
             
-            <table>
-                <tr>
+            <table id="news_table">
+                <tr class="header_row">
                     <th>Data</th>
                     <th>Titolo</th>
                     <th>Modifica</th>
                     <th>Cancella</th>
                 </tr>
                 
-                <tr>
+                <tr class="odd_row">
                     <td>14/03/2018</td>
                     <td>Chiama la polizia (due volte) perché il piatto di cozze è troppo piccolo: denunciato</td>
-                    <td><!-- BUTTON Modifica --></td>
-                    <td><!-- BUTTON Cancella --></td>
+                    <td>
+                        <a href="#">
+                            <img title="edit_logo" alt="modifica"
+                             src="images/edit.png" width="256" height="256" class="edit">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <img title="delete_logo" alt="cancella"
+                             src="images/trash.png" width="256" height="256" class="delete">
+                        </a>
+                    </td>
                 </tr>
                 
-                <tr>
+                <tr class="even_row">
                     <td>07/03/2018</td>
                     <td>Dopo Pomezia è caos M5s anche a Nettuno: il sindaco resta senza giunta</td>
-                    <td><!-- BUTTON Modifica --></td>
-                    <td><!-- BUTTON Cancella --></td>
+                    <td>
+                        <a href="#">
+                            <img title="edit_logo" alt="modifica"
+                             src="images/edit.png" width="256" height="256" class="edit">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <img title="delete_logo" alt="cancella"
+                             src="images/trash.png" width="256" height="256" class="delete">
+                        </a>
+                    </td>
                 </tr>
                 
-                <tr>
+                <tr class="odd_row">
                     <td>27/02/2018</td>
                     <td>I "mille culure" della musica di Pino Daniele</td>
-                    <td><!-- BUTTON Modifica --></td>
-                    <td><!-- BUTTON Cancella --></td>
+                    <td>
+                        <a href="#">
+                            <img title="edit_logo" alt="modifica"
+                             src="images/edit.png" width="256" height="256" class="edit">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <img title="delete_logo" alt="cancella"
+                             src="images/trash.png" width="256" height="256" class="delete">
+                        </a>
+                    </td>
                 </tr>
                 
-                <tr>
+                <tr class="even_row">
                     <td>18/02/2018</td>
                     <td>Juventus, squadra in riserva dopo il tour de force: la sosta può fare solo bene</td>
-                    <td><!-- BUTTON Modifica --></td>
-                    <td><!-- BUTTON Cancella --></td>
+                    <td>
+                        <a href="#">
+                            <img title="edit_logo" alt="modifica"
+                             src="images/edit.png" width="256" height="256" class="edit">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#">
+                            <img title="delete_logo" alt="cancella"
+                             src="images/trash.png" width="256" height="256" class="delete">
+                        </a>
+                    </td>
                 </tr>
                 
             </table>
             
-            <h3><a href="scriviArticolo.html">Nuovo Articolo</a></h3>
+            <h3 id="new_article"><a href="scriviArticolo.html">Nuovo Articolo</a></h3>
             
             
         </div>

@@ -29,7 +29,7 @@ and open the template in the editor.
         <nav class="top">
             <ul>
                 <li><a href="notizia.html">NOTIZIE</a></li>
-                <li><a href="login.html">LOGIN</a></li>
+                <li id="login_nav"><a href="login.html">LOGIN</a></li>
             </ul>   
         </nav>
         
@@ -39,15 +39,16 @@ and open the template in the editor.
                  src="images/esteso.png" width="200" height="71">
         </div>
         
-        <div class="main_content"> 
-            <form action="articoli.html" method="get">
-                <label for="username">Username: </label>
-                <input type="text" name="username" id="username" value="Username">
+        <div class="main_content" id="login_div"> 
+            <h1 id="accedi" class="main_title">Accedi</h1>
+            <form id="login_form" action="notizia.html" method="get">
+                <label for="username" class="login_label">Username: </label>
+                <input type="text" name="username" id="username" class="login_field" value="Username">
                 <br>
-                <label for="password">Password: </label>
-                <input type="password" name="password" id="password" value="Password">
+                <label for="password" class="login_label">Password: </label>
+                <input type="password" name="password" id="password" class="login_field" value="Password">
                 <br>
-                <input type="submit" value="Login">
+                <input type="submit" value="ACCEDI" id="submit_button" class="login_field">
             </form>
         </div>
         
