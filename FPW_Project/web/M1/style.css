@@ -12,8 +12,6 @@ and open the template in the editor.
 
 
 
-@media only screen and (min-width: 481px) {
-
 /*Font e sfondo generali impostati sul body */
 
 * { /*Override del valore iniziale attribuito dal webkit*/
@@ -340,6 +338,7 @@ ul.autori{/**/
     border: 2px solid #ba0505;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #main_img {
@@ -455,6 +454,7 @@ ul.autori{/**/
     background-color: #ba0505;
     border: 1px solid #ba0505;
     color:white;
+    cursor: pointer;
 }
 
 #new_article a:hover {
@@ -483,8 +483,6 @@ ul.autori{/**/
 #new_article_submit {
     margin-left: 0;
     width: 300px;
-}
-
 }
 
 
