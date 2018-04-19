@@ -5,6 +5,8 @@
  */
 package it.unica.michelepilia.fpw;
 
+import java.util.Date;
+
 /**
  *
  * @author michelepilia
@@ -17,8 +19,10 @@ public class News {
     private String img;
     private String category;
     private User author;
+    private Date date;
     private String description;
 
+   
     public News()
     {
         this.id = 0;
@@ -113,5 +117,32 @@ public class News {
         this.author = author;
     }
         
+    /**
+     * @return the date
+     */
+    public Date getDate() {
+        return date;
+    }
+
+    /**
+     * @param date the date to set
+     */
+    public void setDate(Date date) {
+        this.date = date;
+    }
+    
+    /**
+     * @return the description
+     */
+    public String getDescription() {
+        return description;
+    }
+
+    /**
+     * @param description the description to set
+     */    
+    public void setDescription(String description) {
+        this.description = description;
+    }
     
 }

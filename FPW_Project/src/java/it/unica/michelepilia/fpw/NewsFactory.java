@@ -6,6 +6,7 @@
 package it.unica.michelepilia.fpw;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  *
@@ -81,6 +82,15 @@ public class NewsFactory {
                 listToReturn.add(news);
             
         return listToReturn;
+    }
+    
+    public ArrayList <News> getNewsByDate (Date date) {
+        ArrayList<News> listToReturn = new ArrayList<>();
+        
+        for (News news : listNews)
+            if (date.equals(news.getDate()))
+                listToReturn.add(news);
+        return null;
     }
     
 }
