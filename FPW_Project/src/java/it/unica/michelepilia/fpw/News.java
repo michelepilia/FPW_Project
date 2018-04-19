@@ -17,6 +17,7 @@ public class News {
     private String img;
     private String category;
     private User author;
+    private String description;
 
     public News()
     {

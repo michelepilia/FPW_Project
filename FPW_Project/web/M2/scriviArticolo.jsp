@@ -23,15 +23,7 @@
         
         <jsp:include page="header.jsp"/>
         
-        <nav class="top">
-            <ul>
-                <li><a href="notizia.html">NOTIZIE</a></li>
-                <li><a href="notizia.html">PROFILO</a></li>
-                <li id="main_nav" class="due_righe"><a href="#">I MIEI ARTICOLI</a></li>
-                <li id="greetings">Ciao, Michele</li>
-                <li><a href="login.html">LOGOUT</a></li>
-            </ul>   
-        </nav>
+        <jsp:include page="navbar.jsp" />
         
         <div class="main_content" id="main_new_article">
             <h1 id="new_article_title" class="main_title">Scrivi un articolo</h1>

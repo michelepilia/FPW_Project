@@ -23,14 +23,7 @@
         
         <jsp:include page="header.jsp"/>
         
-        <nav class="top">
-            <ul>
-                <li id="main_nav"><a href="notizia.html">NOTIZIE</a></li>
-                <li><a href="articoli.html">PROFILO</a></li>
-                <li id="greetings">Ciao, Michele</li>
-                <li><a href="login.html">LOGOUT</a></li>
-            </ul>   
-        </nav>
+        <jsp:include page="navbar.jsp" />
         
         <div class="main_content" id="news_div">
             <h1 id="news_title" class="main_title">Chiama la polizia perché il piatto di cozze è troppo piccolo: denunciato</h1>
