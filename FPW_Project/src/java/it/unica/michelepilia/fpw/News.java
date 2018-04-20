@@ -17,6 +17,8 @@ public class News {
     private String title;
     private String content;
     private String img;
+    private String img_title;
+    private String img_alt;
     private String category;
     private User author;
     private Date date;
@@ -87,6 +89,23 @@ public class News {
      */
     public void setImg(String img) {
         this.img = img;
+    }
+    
+    
+    public String getImg_title() {
+        return img_title;
+    }
+
+    public void setImg_title(String img_title) {
+        this.img_title = img_title;
+    }
+
+    public String getImg_alt() {
+        return img_alt;
+    }
+
+    public void setImg_alt(String img_alt) {
+        this.img_alt = img_alt;
     }
 
     /**
